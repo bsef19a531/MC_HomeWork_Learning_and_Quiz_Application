@@ -1,50 +1,29 @@
 <resources>
     <string name="app_name">php Learning App</string>
     <string name="into_php">
-        What is PHP? \n
+        <b>What is PHP?</b> \n \n
          PHP is an acronym for "PHP: Hypertext Preprocessor" \n
          PHP is a widely-used, open source scripting language  \n
          PHP scripts are executed on the server \n
          PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
-        What is PHP? \n
-         PHP is an acronym for "PHP: Hypertext Preprocessor" \n
-         PHP is a widely-used, open source scripting language  \n
-         PHP scripts are executed on the server \n
-         PHP is <b>free</b> to download and use \n
+
+        \n \n \n
+
+        <b>What Can PHP Do?</b> \n \n
+        PHP can generate dynamic page content \n
+        PHP can create, open, read, write, delete, and close files on the server \n
+        PHP can collect form data \n
+        PHP can send and receive cookies \n
+        PHP can add, delete, modify data in your database \n
+        PHP can be used to control user-access \n
+        PHP can encrypt data \n \n \n
+
+        
+        <b>Why PHP?</b>  \n \n
+PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.) \n
+PHP is compatible with almost all servers used today (Apache, IIS, etc.) \n
+PHP supports a wide range of databases \n
+PHP is free. Download it from the official PHP resource: www.php.net \n
+PHP is easy to learn and runs efficiently on the server side \n \n \n
     </string>
 </resources>

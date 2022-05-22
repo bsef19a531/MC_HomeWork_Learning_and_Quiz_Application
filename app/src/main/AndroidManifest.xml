@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PhpLearningApp">
         <activity
+            android:name=".Introduction_PHP_QUIZ"
+            android:exported="false" />
+        <activity
             android:name=".Introduction_PHP"
             android:exported="false" />
         <activity

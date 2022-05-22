@@ -14,5 +14,10 @@ public class Introduction_PHP extends AppCompatActivity {
         setContentView(R.layout.activity_introduction_php);
     }
 
+    public void toIntroPhp(View view)
+    {
+        Intent intent = new Intent(Introduction_PHP.this, Introduction_PHP.class);
+        startActivity(intent);
+    }
 
 }
