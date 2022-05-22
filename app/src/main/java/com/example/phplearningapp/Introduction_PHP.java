@@ -14,9 +14,9 @@ public class Introduction_PHP extends AppCompatActivity {
         setContentView(R.layout.activity_introduction_php);
     }
 
-    public void toIntroPhp(View view)
+    public void toIntroPhpQuiz(View view)
     {
-        Intent intent = new Intent(Introduction_PHP.this, Introduction_PHP.class);
+        Intent intent = new Intent(Introduction_PHP.this, Introduction_PHP_QUIZ.class);
         startActivity(intent);
     }
 

@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="40dp"
+            android:onClick="toIntroPhpQuiz"
             android:text="Take Quiz"
             android:textSize="20sp"
             android:textStyle="normal|bold"
