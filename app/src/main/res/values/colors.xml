@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_blue">#335680</color>
     <color name="button_blue">#6DA6BC</color>
+    <color name="scroll_blue">#3F51B5</color>
 </resources>
