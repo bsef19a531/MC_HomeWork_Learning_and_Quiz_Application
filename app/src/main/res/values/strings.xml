@@ -26,4 +26,17 @@ PHP supports a wide range of databases \n
 PHP is free. Download it from the official PHP resource: www.php.net \n
 PHP is easy to learn and runs efficiently on the server side \n \n \n
     </string>
+
+    <string name="question1">
+        <b>Q1- PHP</b> is an acronym for
+    </string>
+
+    <string name="question2">
+        <b>Q2- PHP</b> is an
+    </string>
+
+    <string name="question3">
+        <b>Q3- PHP</b> can send and recieve
+    </string>
+
 </resources>
