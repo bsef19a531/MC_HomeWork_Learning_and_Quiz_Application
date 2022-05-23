@@ -3,6 +3,7 @@ package com.example.phplearningapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
@@ -50,6 +51,23 @@ public class Introduction_PHP_QUIZ extends AppCompatActivity {
         {
             builder.setMessage("Sorry Try Again!");
         }
+
+        builder
+                .setPositiveButton(
+                        "Ok",
+                        new DialogInterface
+                                .OnClickListener() {
+
+                            @Override
+                            public void onClick(DialogInterface dialog,
+                                                int which)
+                            {
+
+                                // When the user click yes button
+                                // then app will close
+                                finish();
+                            }
+                        });
         builder.setTitle("Result");
         builder.setCancelable(true);
         AlertDialog alertDialog = builder.create();
