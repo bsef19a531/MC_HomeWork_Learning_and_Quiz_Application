@@ -52,5 +52,7 @@ public class Introduction_PHP_QUIZ extends AppCompatActivity {
         }
         builder.setTitle("Result");
         builder.setCancelable(true);
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
     }
 }
