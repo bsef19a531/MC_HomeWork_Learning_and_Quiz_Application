@@ -52,7 +52,7 @@ public class Introduction_PHP_QUIZ extends AppCompatActivity {
             builder.setMessage("Sorry Try Again!");
         }
 
-        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Back", new DialogInterface.OnClickListener() {
 
                             @Override
                             public void onClick(DialogInterface dialog, int which)
@@ -62,6 +62,19 @@ public class Introduction_PHP_QUIZ extends AppCompatActivity {
                                 // then app will close
                                 finish();
                             }});
+
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+
+                            @Override
+                            public void onClick(DialogInterface dialog, int which)
+                            {
+
+                                // If user click no
+                                // then dialog box is canceled.
+                                dialog.cancel();
+                            }
+                        });
+
         builder.setTitle("Result");
         builder.setCancelable(true);
         AlertDialog alertDialog = builder.create();
