@@ -52,22 +52,16 @@ public class Introduction_PHP_QUIZ extends AppCompatActivity {
             builder.setMessage("Sorry Try Again!");
         }
 
-        builder
-                .setPositiveButton(
-                        "Ok",
-                        new DialogInterface
-                                .OnClickListener() {
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 
                             @Override
-                            public void onClick(DialogInterface dialog,
-                                                int which)
+                            public void onClick(DialogInterface dialog, int which)
                             {
 
                                 // When the user click yes button
                                 // then app will close
                                 finish();
-                            }
-                        });
+                            }});
         builder.setTitle("Result");
         builder.setCancelable(true);
         AlertDialog alertDialog = builder.create();
