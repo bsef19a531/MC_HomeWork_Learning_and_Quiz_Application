@@ -43,9 +43,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="409dp"
         android:layout_height="523dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -198,7 +200,20 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/button_blue" />
+
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="402dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="4dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
